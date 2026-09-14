@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with SSP LED Solutions for all your LED lighting questions and requirements.">
+  <title>Contact Us - SSP LED Solutions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">
+        SSP <span>LED</span> Solutions
+      </a>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contact Header -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 0;">
+          <h2>Contact Us</h2>
+          <p>Have a question or lighting requirement? Get in touch with SSP LED Solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form & Info Section -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <!-- Contact Details Column -->
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            
+            <div class="info-item">
+              <div>
+                <strong>Phone:</strong>
+                <p>+91 XXXXX XXXXX</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div>
+                <strong>Email:</strong>
+                <p><a href="mailto:info@sspledsolutions.com">info@sspledsolutions.com</a></p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div>
+                <strong>Location:</strong>
+                <p>Pondicherry, India</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="form-card">
+            
+            <!-- Success Alert Banner -->
+            <div class="alert-success" id="successAlert" role="alert">
+              Thank you! Your enquiry has been submitted successfully.
+            </div>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" class="form-control" placeholder="Enter your full name">
+                <div class="error-message" id="fullNameError">Full Name is required.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email address">
+                <div class="error-message" id="emailError">Please enter a valid email address.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
+                <div class="error-message" id="phoneError">Phone number is required.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" rows="5" placeholder="Enter your message or lighting requirement"></textarea>
+                <div class="error-message" id="messageError">Message cannot be empty.</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Enquiry</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>SSP LED Solutions</h3>
+          <p>Reliable LED lighting solutions for modern spaces.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 SSP LED Solutions. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
